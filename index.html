@@ -1,0 +1,478 @@
+<!--
+  TrackRunny website - Personal website for myself                          
+  Copyright (C) 2020 TrackRunny                                             
+                                                                            
+  This program is free software: you can redistribute it and/or modify      
+  it under the terms of the GNU General Public License as published by      
+  the Free Software Foundation, either version 3 of the License, or         
+  (at your option) any later version.                                       
+                                                                            
+  This program is distributed in the hope that it will be useful,           
+  but WITHOUT ANY WARRANTY; without even the implied warranty of            
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the             
+  GNU General Public License for more details.                              
+                                                                            
+  You should have received a copy of the GNU General Public License         
+  along with this program. If not, see <https://www.gnu.org/licenses/>.     
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="Personal website for TrackRunny with information about himself." content="Personal website for TrackRunny.">
+
+    <meta property="og:site_name" content="TrackRunny's Personal Website" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://trackrunny.codes" />
+    <meta property="og:image" content="https://trackrunny.codes/images/TrackRunny.png" />
+    <meta property="og:description" content="Personal website for TrackRunny with information about himself. Check back regularly for any new news / updates that are happening." />
+
+    <meta name="theme-color" content="#1F2C6C" />
+    <meta http-equiv="onion-location" content="http://track6mven4pa32vseoxa62tpbaeirlwloz2i4lgwfpvwvrf6gkohsid.onion/" />
+    
+    <title>TrackRunny</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.1/css/bulma.min.css" integrity="sha512-ZRv40llEogRmoWgZwnsqke3HNzJ0kiI0+pcMgiz2bxO6Ew1DVBtWjVn0qjrXdT3+u+pSN36gLgmJiiQ3cQtyzA==" crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" href="src/css/style.css" />
+    <link rel="icon" type="image/ico" href="src/images/favicon.ico" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.min.css">
+    <!-- <script src="src/css/mfb/lib/modernizr.touch.js"></script> -->
+
+    <link href="src/css/mfb/mfb.css" rel="stylesheet">
+    <script src="src/css/mfb/mfb.js"></script>
+  </head>
+  <body>
+
+    <div class="section-loader">
+      <p class="loader-title has-text-centered" style="color: #fffff1;">
+          Please wait as we set things up for you...<br><br>
+          <noscript>We've detected that you have Javascript off! Kindly turn it on to access my site. <br><br>
+            If you are using tor browser, please make sure to change your settings to "safer" or less in order for this website to work correctly
+          </noscript>
+      </p>
+    </div>
+    
+    
+    <!-- <form>
+      <a href="#home">
+        <button id="toTop" title="Go to top">
+          <i class="fas fa-angle-up"></i>
+        </button>
+
+      </a>
+    </form> -->
+
+<ul id="menu" class="mfb-component--br mfb-zoomin" data-mfb-toggle="hover">
+  <li class="mfb-component__wrap">
+    <a href="#" class="mfb-component__button--main">
+      <i class="mfb-component__main-icon--resting ion-plus-round fas fa-plus"></i>
+      <i class="mfb-component__main-icon--active ion-close-round fas fa-times"></i>
+      
+    </a>
+    <ul class="mfb-component__list">
+      <li>
+        <a href="#home" data-mfb-label="To Top" class="mfb-component__button--child">
+          <i class="mfb-component__child-icon fas fa-angle-up"></i>
+        </a>
+      </li>
+      <li>
+        <a href="#" data-mfb-label="Dark Mode" onclick="darkMode()" class="mfb-component__button--child">
+          <i class="mfb-component__child-icon fas fa-moon"></i>
+        </a>
+      </li>
+
+      <li>
+        <a href="#" data-mfb-label="Light Mode" onclick="lightMode()" class="mfb-component__button--child">
+          <i class="mfb-component__child-icon fas fa-sun"></i>
+        </a>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+
+
+    <div class="header-wrapper" id="home">
+      <section class="hero is-large">
+        <nav class="navbar is-transparent is-hidden-desktop">
+          <div class="navbar-brand">
+            <div class="navbar-burger burger" data-target="mobile-nav">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+          <div id="mobile-nav" class="navbar-menu">
+            <div class="navbar-end">
+              <div class="navbar-item">
+                <a class="navbar-item" href="index.html#home">
+                  Home
+                </a>
+              </div>
+              <div class="navbar-item">
+                <a class="navbar-item" href="index.html#about-me">
+                  About Me
+                </a>
+              </div>
+              <div class="navbar-item">
+                <a class="navbar-item" href="index.html#support">
+                  Support
+                </a>
+              </div>
+              
+            </div>
+          </div>
+        </nav>
+          
+        <div class="hero-body">
+          <div class="container " id="scroll-to-top">
+            <h1 class="subtitle">Hey there, I'm</h1>
+            <h2 class="title">TrackRunny</h2>
+            <noscript><h1 class="subtitle">If you are using tor browser, please make sure to change your settings to "safer" or less in order for this website to work correctly</h1></noscript>
+          </div>
+        </div>
+        
+        
+        
+        <div class="hero-foot ">
+          <div class="hero-foot--wrapper">
+            <div class="columns">
+              <div class="column is-12 hero-menu-desktop has-text-centered">
+                <ul>
+                  <li class="is-active">
+                    <a href="index.html#home">Home</a>
+                  </li>
+                  <li>
+                    <a href="index.html#about-me" id="testone">About Me</a>
+                  </li>
+                  <li>
+                    <a href="index.html#support">Support</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+            
+      </section>
+    </div>
+
+    <section class="main-content">
+      <div class="section-light">
+        <div class="about-me" id="about-me">
+          <div class="container">
+          <div class="notification is-primary">
+            <button class="delete" onclick="deleteNoti()"></button>
+            <h4>NEWS</h4>
+            <p class="subtitle">
+              New updated website design! Trying out something different.
+              Currently bitcoin is at 40K which is just remarkable. I honestly believe it could hit 100K easily by the end of the year if this bull run keeps going. 📈
+            </p>
+          </div>
+            <div class="columns">
+              <div class="column level">
+                <div class="level-left">
+                  <div class="level-name">
+                    <p class="heading">
+                      ABOUT ME
+                    </p>
+                    <p class="title">
+                      Hello, I'm TrackRunny! <img class="is-rounded trackrunny" src="src/images/TrackRunny.png" />
+                      <br>
+                      I currently am a Java and Python programmer who spends time creating and working on projects. <br> <br>
+                      I'll be working on more projects later down the road once I become more free in time. <br> <br>
+
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="column level">
+                <div class="level-right">
+                    <img class="is-rounded" src="src/images/hello.svg" width="220" alt=""/>
+                  </div>
+              </div>
+            </div>
+            <div class="columns">
+              <div class="column level">
+                <div class="level-left hide-on-mobile">
+                  <div class="level-right">
+                    <img class="is-rounded" src="src/images/cryptocurrency.svg" width="220" alt=""/>
+                  </div>
+                  
+                </div>
+              </div>
+              <div class="column level">
+                <div class="more-about-me">
+                    <p class="heading">
+                      More About Me
+                    </p>
+                    <p class="title">
+                      I also am a cryptocurrency investor and enthusiast, I do believe in cryptocurrency for the future in that it could become widespread one day. <br> <br>
+                      Sometimes I build computers in my spare time as well.
+
+                    </p>
+                  </div>
+                  
+                </div>
+            </div>
+          <div class="container">
+            <div class="columns">
+              <div class="column level">
+                <div class="level-left">
+                  <div class="level-contacts">
+                    <p class="heading">
+                      GET IN TOUCH
+                    </p>
+                    <p class="title">
+                      <div class="level">
+                        <div class="level-github">
+                        <p class="heading"> 
+                        <img src="src/images/discord.svg" class="tor-picture">
+                            Discord
+                          </p>
+                          <p class="title">
+                            <span class="hide-on-mobile">::</span>
+                            <a href="https://discordapp.com/" target="_blank" rel="noopener noreferrer" class="contacts-value">
+                              TrackRunny#0001
+                            </a>
+                          </p>
+                        </div>
+                      </div>
+                      <div class="level">
+                        <div class="level-github">
+                          <p class="heading">
+                          <img src="src/images/github.svg" class="tor-picture">
+                            Github
+                          </p>
+                          <p class="title">
+                            <span class="hide-on-mobile">::</span> 
+                            <a href="https://github.com/TrackRunny/" target="_blank" rel="noopener noreferrer" class="contacts-value">
+                              github.com/TrackRunny
+                            </a>
+                          </p>
+                        </div>
+                      </div>
+                      <div class="level">
+                        <div class="level-github">
+                          <p class="heading"> 
+                            <img src="src/images/torbrowser.svg" class="tor-picture">
+                            Tor
+                          </p>
+                          <p class="title">
+                            <span class="hide-on-mobile">::</span>
+                            <a href="https://www.torproject.org/" target="_blank" rel="noopener noreferrer" class="contacts-value">
+                              track6mven4pa32vseoxa62tpbaeirlwloz2i4lgwfpvwvrf6gkohsid.onion
+                            </a>
+                          </p>
+                        </div>
+                      </div>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="column level">
+                <div class="level-right">
+                    <img class="is-rounded" src="src/images/contact-me.svg" width="450" alt=""/>
+                  </div>
+              </div>
+            </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      <div class="section-dark">
+        <div class="support-me" id="support">
+          <div class="container">
+            <div class="content">
+              <div class="level">
+                <div class="level-left">
+
+                  <div class="level-support-title">
+                      <p class="heading">
+                        Support Me
+                      </p>
+                  </div>
+
+                </div>
+              </div>
+
+              <!-- BITCOIN -->
+              <div class="columns">
+                <div class="column level">
+                  <div class="level-left">
+                    <div class="level-bitcoin has-text-centered">
+                      <p class="heading">
+                      </p>
+                      <p class="title">
+                        <div class="columns">
+                          <div class="column is-two-fifths">
+                            <img src="src/images/Bitcoin.png" width="75" height="75"/>
+                          </div>
+                          <div class="form__group field column is-two-fifths has-text-centered">
+                            <input type="input" class="form__field" placeholder="bc1qx34ytpx3a4ddszpn8m38a2zglpd9j94rpp2pac" name="name" value="bc1qx34ytpx3a4ddszpn8m38a2zglpd9j94rpp2pac" id='bitcoin' required />
+                          </div>
+                          <div class="column is-offset-4">
+                            <a class="btn btn--primary btn--inside uppercase" onclick="copyDonationToClipboard('bitcoin')">Copy</a>
+                          </div>
+                        </div>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- ETHEREUM -->
+              <div class="columns">
+                <div class="column level">
+                  <div class="level-left">
+                    <div class="level-bitcoin has-text-centered">
+                      <p class="heading">
+                      </p>
+                      <p class="title">
+                        <div class="columns">
+                          <div class="column is-two-fifths">
+                            <img src="src/images/Ethereum.png" width="75" height="75"/>
+                          </div>
+                          <div class="form__group field column is-two-fifths has-text-centered">
+                            <input type="input" class="form__field" placeholder="" name="name" value="0xBCEB1edDdc85ed6BE6DBF2D6d76639E050dF8bC5" id='ethereum' required />
+                          </div>
+                          <div class="column is-offset-4">
+                            <a class="btn btn--primary btn--inside uppercase" onclick="copyDonationToClipboard('ethereum')">Copy</a>
+                          </div>
+                        </div>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- LITECOIN -->
+              <div class="columns">
+                <div class="column level">
+                  <div class="level-left">
+                    <div class="level-bitcoin has-text-centered">
+                      <p class="heading">
+                      </p>
+                      <p class="title">
+                        <div class="columns">
+                          <div class="column is-two-fifths">
+                            <img src="src/images/Litecoin.png" width="75" height="75"/>
+                          </div>
+                          <div class="form__group field column is-two-fifths has-text-centered">
+                            <input type="input" class="form__field" placeholder="" name="name" value="ltc1qc4kz0l28em6v6pmwnnv673fntrfep8pulenkh5" id='litecoin' required />
+                          </div>
+                          <div class="column is-offset-4">
+                            <a class="btn btn--primary btn--inside uppercase" onclick="copyDonationToClipboard('litecoin')">Copy</a>
+                          </div>
+                        </div>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- MONERO -->
+              <div class="columns">
+                <div class="column level">
+                  <div class="level-left">
+                    <div class="level-bitcoin has-text-centered">
+                      <p class="heading">
+                      </p>
+                      <p class="title">
+                        <div class="columns">
+                          <div class="column is-two-fifths">
+                            <img src="src/images/Monero.png" width="75" height="75"/>
+                          </div>
+                          <div class="form__group field column is-two-fifths has-text-centered">
+                            <input type="input" class="form__field" placeholder="" name="name" value="47JAhrNuWDjdWdhimAb7Z5ftuQ8Pm8fBYaqbLekfgpfYi38Y7gt8JfG9Stxfm3oyd6Gk9grdrGvWh3G2QwMAHpCzHuS3fgj" id='monero' required />
+                          </div>
+                          <div class="column is-offset-4">
+                            <a class="btn btn--primary btn--inside uppercase" onclick="copyDonationToClipboard('monero')">Copy</a>
+                          </div>
+                        </div>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- PAYPAL -->
+              <div class="columns">
+                <div class="column level">
+                  <div class="level-left">
+                    <div class="level-bitcoin has-text-centered">
+                      <p class="heading">
+                      </p>
+                      <p class="title">
+                        <div class="columns">
+                          <div class="column is-two-fifths">
+                            <img src="src/images/Paypal.png" width="75" height="75"/>
+                          </div>
+                          <div class="form__group field column is-two-fifths has-text-centered">
+                            <input type="input" class="form__field" placeholder="" name="name" value="https://www.paypal.me/TrackRunnyy" id='paypall' required />
+                          </div>
+                          <div class="column is-offset-4">
+                            <a class="btn btn--primary btn--inside uppercase" onclick="copyDonationToClipboard('paypall')">Copy</a>
+                          </div>
+                        </div>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+    </section>
+
+    <section class="section-footer">
+    <div class="container">
+        <div class="columns">
+            <div class="column is-10">
+                <h6 class="title">TrackRunny</h6>
+                <p class="subtitle">
+                    Made with ❤️ by <a href="https://github.com/LichKing112" target="_blank">LichKing112</a> <br>         
+                </p>
+            </div>
+
+            
+        </div>
+        <div class="container">
+            <div class="columns">
+                <div class="column is-full">
+                    <p class="copyright"><a class="copyright-a" href="/" target="_blank" style="color: #fff !important;">Copyright &copy; 2021 All Rights Reserved by TrackRunny 
+                    <br>
+                    Last updated: January 3 2021
+                    </a></p> <br>
+                </div>
+            </div>
+        </div>  
+    </div>
+</section>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+    <script src="src/js/script.js"></script>
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet"/>
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <!-- <script>
+      AOS.init({
+        easing: "ease-out",
+        duration: 800
+      });
+    </script> -->
+    
+  </body>
+</html>

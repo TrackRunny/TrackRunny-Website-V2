@@ -1,0 +1,7 @@
+- [ ] typescript? maybe
+- [ ] clean the fuck out the messy code i caused eks dee
+- [x] refactor everything
+- [x] redesign support me section
+- [x] redesign get in touch section
+- [x] more minimalist stuff
+- [x] sass/scss
